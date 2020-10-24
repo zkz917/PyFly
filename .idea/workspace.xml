@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87d20692-4e39-4678-b2b8-aed3ecffa400" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fly_bbs/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/fly_bbs/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fly_bbs/controllers/api_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/fly_bbs/controllers/api_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fly_bbs/controllers/bbs_front.py" beforeDir="false" afterPath="$PROJECT_DIR$/fly_bbs/controllers/bbs_front.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fly_bbs/controllers/user_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/fly_bbs/controllers/user_view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fly_bbs/extensions.py" beforeDir="false" afterPath="$PROJECT_DIR$/fly_bbs/extensions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fly_bbs/install_init.py" beforeDir="false" afterPath="$PROJECT_DIR$/fly_bbs/install_init.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fly_bbs/static/css/full.css" beforeDir="false" afterPath="$PROJECT_DIR$/fly_bbs/static/css/full.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fly_bbs/static/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/fly_bbs/static/css/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fly_bbs/static/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/fly_bbs/static/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fly_bbs/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/fly_bbs/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fly_bbs/templates/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/fly_bbs/templates/catalog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fly_bbs/templates/common/column.html" beforeDir="false" afterPath="$PROJECT_DIR$/fly_bbs/templates/common/column.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fly_bbs/templates/common/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/fly_bbs/templates/common/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fly_bbs/templates/jie/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fly_bbs/templates/jie/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fly_bbs/templates/other/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/fly_bbs/templates/other/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fly_bbs/templates/posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/fly_bbs/templates/posts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
