@@ -46,7 +46,7 @@ def init():
         {
             'name': '底部信息(支持html代码)',
             'code': 'footer',
-            'val': 'Power by PyFly'
+            'val': 'Powered by ZKZ'
         },
     ]
     result = mongo.db.options.insert_many(options)

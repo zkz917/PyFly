@@ -12,13 +12,13 @@ from flask_oauthlib.client import OAuth
 from fly_bbs.plugins import WhooshSearcher
 from whoosh.fields import Schema, TEXT, ID, DATETIME
 from jieba.analyse import ChineseAnalyzer
-from flask_cache import Cache
+# from flask_cache import Cache
 import functools
 
 # 初始化Mail
 mail = Mail()
 # 初始化Flask-Admin
-admin = Admin(name='PyFly 后台管理')
+admin = Admin(name='ipig 后台管理')
 mongo = PyMongo()
 login_manager = LoginManager()
 login_manager.login_view = 'user.login'
@@ -27,11 +27,11 @@ login_manager.login_view = 'user.login'
 upload_photos = UploadSet('photos')
 
 # Cache
-cache = Cache()
+# cache = Cache()
 
 # OAuth
 oauth = OAuth()
-#oauth_weibo = oauth.remote_app('weibo', )
+# oauth_weibo = oauth.remote_app('weibo')
 
 whoosh_searcher = WhooshSearcher()
 
@@ -52,8 +52,8 @@ def init_extensions(app):
     mongo.init_app(app, "MONGO")
     oauth.init_app(app)
     login_manager.init_app(app)
-    if app.config.get('USE_CACHE', False):
-        cache.init_app(app, {})
+    # if app.config.get('USE_CACHE', False):
+    #     cache.init_app(app, {})
 
     with app.app_context():
         # 添加flask-admin视图
@@ -75,10 +75,10 @@ def init_extensions(app):
         whoosh_searcher.add_index('posts', post_schema)
 
 
-def clear_cache(f):
-    @functools.wraps(f)
-    def decorator(*args, **kwargs):
-        cache.clear()
-        return f(*args, **kwargs)
-    return decorator
+# def clear_cache(f):
+#     @functools.wraps(f)
+#     def decorator(*args, **kwargs):
+#         cache.clear()
+#         return f(*args, **kwargs)
+#     return decorator
 

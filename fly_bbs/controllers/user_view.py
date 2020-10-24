@@ -184,7 +184,7 @@ def register():
         if user:
             return jsonify(code_msg.EMAIL_EXIST)
         user = dict({
-            'is_active': False,
+            'is_active': True,
             'coin': 0,
             'email': user_form.email.data,
             'username': user_form.username.data,
@@ -214,8 +214,8 @@ def login():
             return jsonify(code_msg.USER_NOT_EXIST)
         if not models.User.validate_login(user['password'], user_form.password.data):
             raise models.GlobalApiException(code_msg.PASSWORD_ERROR)
-        if not user.get('is_active', False):
-            return jsonify(code_msg.USER_UN_ACTIVE)
+        # if not user.get('is_active', False):
+        #     return jsonify(code_msg.USER_UN_ACTIVE)
         if user.get('is_disabled', False):
             return jsonify(code_msg.USER_DISABLED)
         login_user(models.User(user))
