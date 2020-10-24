@@ -4,7 +4,7 @@ import os
 
 config_name = os.environ.get('FLASK_CONFIG') or 'Dev'
 app = create_app(config_name)
-server = Server(host="0.0.0.0", port=9000)
+server = Server(host="0.0.0.0", port=80)
 
 manager = Manager(app)
 manager.add_command("runserver", server)
