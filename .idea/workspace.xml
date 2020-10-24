@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="87d20692-4e39-4678-b2b8-aed3ecffa400" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/manager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -230,10 +228,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加栏目排序字段，解决未登录查询签到状态的错误" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="420" y="207" width="752" height="550" key="find.popup" timestamp="1603273288581">
+    <state x="420" y="207" width="775" height="550" key="find.popup" timestamp="1603528025910">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="420" y="207" width="752" height="550" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1603273288581" />
+    <state x="420" y="207" width="775" height="550" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1603528025910" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
